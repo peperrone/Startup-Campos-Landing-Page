@@ -1,0 +1,63 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav.startup-blue{
+	height: 120px;
+}
+
+.startup-blue{
+	background: blue;
+}
+
+.startup-grey{
+	background: #dfdfdf;
+}
+
+.header-logo{
+	height: 90px;
+	width: auto;
+	margin: auto;
+}
+
+.footer-logo{
+	height: auto;
+	width: 150px;
+	margin: auto;
+}
+
+.headline{
+	font-family: Source Sans Pro;
+	font-size: 36px;
+	color: #0000ff;
+	text-decoration: none solid rgb(0, 0, 255);
+	margin-top: 100px;
+}
+
+.startup-btn{
+	padding: 20px;
+	border: none;
+	border-radius: 50px;
+	font-family: Source Code Pro;
+	font-size: 16px;
+	color: #ffffff;
+	background: blue;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+}
+
+#footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
