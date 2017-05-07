@@ -12,10 +12,20 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body class="">
+  <script src="/js/typed.js"></script>
+  <script>
+  	document.addEventListener("DOMContentLoaded", function(){
+	  	Typed.new(".headline", {
+	  		strings: ["Somos um movimento aberto para fomentar a cultura de startups na cidade de Campos dos Goytacazes."],
+	  		typeSpeed: 0
+	  	});
+  	});
+  </script>
+  
   <div class="section no-pad-bot valign-wrapper" id="index-banner">
     <div class="container">
       <img class="header-logo center" src="/assets/imgs/logo-pura.svg">
-      <h1 class="headline">Somos um movimento aberto para fomentar a cultura de startups na cidade de Campos dos Goytacazes.</h1>
+      <h1><span class="headline"></span></h1>
       <div class="button-wrapper row">
         <div class="col s12 l6">
           <button class="startup-btn">
