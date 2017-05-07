@@ -33,7 +33,7 @@
   <script src="/js/typed.js"></script>
   <script>
   	document.addEventListener("DOMContentLoaded", function(){
-	  	Typed.new(".headline", {
+	  	Typed.new(".headline-text", {
 	  		strings: ["Somos um movimento aberto para fomentar a cultura de startups na cidade de Campos dos Goytacazes."],
 	  		typeSpeed: 0
 	  	});
@@ -43,28 +43,71 @@
   <div class="section no-pad-bot valign-wrapper" id="index-banner">
     <div class="container">
       <img class="header-logo center" src="/assets/imgs/logo-pura.svg">
-      <h1><span class="headline"></span></h1>
+      <h1 class="headline"><span class="headline-text"></span></h1>
       <div class="button-wrapper row">
-        <div class="col s12 l6">
-          <button class="startup-btn">
-            Mande uma mensagem!
-          </button>
-        </div>
-        <div class="col s12 l6">
-          <button class="startup-btn">
-            <i class="fa fa-facebook" aria-hidden="true"></i> Fique por dentro!
-          </button>
+        <div class="col s6 l3">    
+          <a href="https://www.messenger.com/t/startupcampos" target="_blank">
+              <button class="startup-btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Fale com a gente!">
+               <svg version='1.1' class="svg-btn"  id='Messenger_Mark' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='1000px' height='1000px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'>
+                  <path id='Bubble_Shape' d='M499.5,103.503c-217.049,0-393.002,164.533-393.002,367.496
+                  	c0,115.46,56.945,218.482,146.002,285.854V897.5l134.118-74.394c35.754,10.009,73.646,15.389,112.882,15.389
+                  	c217.049,0,393.002-164.534,393.002-367.497S716.549,103.503,499.5,103.503z M540.891,596.308L439.247,490.714L243.5,598.967
+                  	l214.609-227.741L559.754,476.82L755.5,368.567L540.891,596.308z'/>
+                </svg>
+              </button>
+          </a>    
+          </div>
+        <div class="col s6 l3">
+          <a href="https://www.facebook.com/startupcampos" target="_blank">
+            <button class="startup-btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Fique por dentro!">
+              <svg class="svg-btn" width='200' height='200' version='1.1' viewBox='0 0 52.916666 52.916668' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+               <metadata>
+                <rdf:RDF>
+                 <cc:Work rdf:about=''>
+                  <dc:format>image/svg+xml</dc:format>
+                  <dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/>
+                  <dc:title/>
+                 </cc:Work>
+                </rdf:RDF>
+               </metadata>
+               <g transform='translate(-82.054 -137.4)'>
+                <path d='m112.22 187.81v-21.853h7.3355l1.0982-8.5168h-8.4337v-5.4376c0-2.4658 0.68464-4.1461 4.2208-4.1461l4.51-2e-3v-7.6174c-0.78021-0.1036-3.4572-0.33555-6.5718-0.33555-6.5024 0-10.954 3.9689-10.954 11.258v6.2808h-7.3541v8.5168h7.3541v21.853z'/>
+               </g>
+              </svg>
+            </button>
+          </a>
         </div>
       </div>  
     </div>
   </div>
-
+  
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://use.fontawesome.com/2f50cc11ec.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  
+  <!-- Message Us -->
+    <script>
 
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: "95100348886",
+        xfbml: true,
+        version: "v2.6"
+      });
+
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) { return; }
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+  </script>
 
   </body>
 </html>

@@ -61,9 +61,37 @@ nav.startup-blue{
 	font-family: Source Code Pro;
 	font-size: 16px;
 	color: #ffffff;
-	background: blue;
-	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+	background-color: rgba(0,0,0,0);
 	margin-top: 50px;
+}
+
+/* Embeded SVGs */
+
+
+.svg-btn{
+	width: 100px;
+	height: auto;
+	fill: #dfdfdf;
+	transition: 0.5s;
+}
+
+.svg-btn:hover{
+	width: 100px;
+	height: auto;
+	fill: blue;
+	transition: 0.5s;
+}
+
+
+/* Materialize Overwrite*/
+
+button:focus{
+	background-color: rgba(0,0,0,0);
+}
+
+.backdrop{
+	background-color: blue;
+	font-family: Souce Code Pro;
 }
 
 /*Typed.JS Cursor*/
