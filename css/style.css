@@ -10,8 +10,16 @@
 
 @media only screen and (min-width: 993px){
 	.headline {
-		font-size: 62px !important;
+		font-size: 48px !important;
 	}
+	.svg-btn{
+	width: 80px !important;
+	height: auto;
+	}
+	.container{
+		margin-top: 50px;
+	}
+	
 }
 
 
@@ -35,17 +43,12 @@ nav.startup-blue{
 }
 
 .header-logo{
-	height: 300px;
+	height: 250px;
 	width: auto;
 	margin: 0 auto;
 	display: table;
 }
 
-.footer-logo{
-	height: auto;
-	width: 150px;
-	margin: auto;
-}
 
 .headline{
 	font-family: Source Serif Pro;
@@ -62,22 +65,21 @@ nav.startup-blue{
 	font-size: 16px;
 	color: #ffffff;
 	background-color: rgba(0,0,0,0);
-	margin-top: 50px;
+	margin: 20px auto 0 auto;
+	display: table;
 }
 
 /* Embeded SVGs */
 
 
 .svg-btn{
-	width: 100px;
+	width: 60px;
 	height: auto;
 	fill: #dfdfdf;
 	transition: 0.5s;
 }
 
 .svg-btn:hover{
-	width: 100px;
-	height: auto;
 	fill: blue;
 	transition: 0.5s;
 }
