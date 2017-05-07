@@ -6,6 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+/*Media Queries*/
+
+@media only screen and (min-width: 993px){
+	.headline {
+		font-size: 62px !important;
+	}
+}
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -26,9 +35,10 @@ nav.startup-blue{
 }
 
 .header-logo{
-	height: 90px;
+	height: 300px;
 	width: auto;
-	margin: auto;
+	margin: 0 auto;
+	display: table;
 }
 
 .footer-logo{
@@ -38,11 +48,10 @@ nav.startup-blue{
 }
 
 .headline{
-	font-family: Source Sans Pro;
-	font-size: 36px;
+	font-family: Source Serif Pro;
+	font-size: 5vw;
 	color: #0000ff;
 	text-decoration: none solid rgb(0, 0, 255);
-	margin-top: 100px;
 }
 
 .startup-btn{
@@ -54,6 +63,7 @@ nav.startup-blue{
 	color: #ffffff;
 	background: blue;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+	margin-top: 50px;
 }
 
 #footer{
