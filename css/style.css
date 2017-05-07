@@ -8,7 +8,21 @@
 
 /*Media Queries*/
 
-@media only screen and (min-width: 993px){
+@media only screen and (min-width: 993px) and (max-width: 1440px){
+	.headline {
+		font-size: 42px !important;
+	}
+	.svg-btn{
+	width: 60px !important;
+	height: auto;
+	}
+	.container{
+		margin-top: 50px;
+	}
+	
+}
+
+@media only screen and (min-width: 1440px){
 	.headline {
 		font-size: 48px !important;
 	}
@@ -19,7 +33,10 @@
 	.container{
 		margin-top: 50px;
 	}
-	
+	.header-logo{
+	height: 250px !important;
+	width: auto;
+}
 }
 
 
@@ -43,7 +60,7 @@ nav.startup-blue{
 }
 
 .header-logo{
-	height: 250px;
+	height: 200px;
 	width: auto;
 	margin: 0 auto;
 	display: table;
