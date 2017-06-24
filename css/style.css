@@ -86,6 +86,24 @@ nav.startup-blue{
 	display: table;
 }
 
+.partners{
+	margin-top: 50px;
+	display: block;
+}
+
+.title-section{
+	color: blue;
+	font-family: Source Serif Pro;
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+.startup-img{
+	max-height: 100px;
+	width: auto;
+	height: 100%;
+}
+
 .git-call{
 	margin-top: 200px;
 	font-family: Source Code Pro, sans-serif;
