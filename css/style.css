@@ -119,6 +119,11 @@ nav.startup-blue{
 .git-call a{
 	color: blue;
 }
+
+#sebrae{
+	max-width: 200px;
+	height: auto;
+}
 /* Embeded SVGs */
 
 
