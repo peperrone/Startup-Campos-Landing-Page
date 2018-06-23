@@ -10,33 +10,32 @@
 
 @media only screen and (min-width: 993px) and (max-width: 1440px){
 	.headline {
-		font-size: 42px !important;
-	}
-	.svg-btn{
-	width: 60px !important;
-	height: auto;
+		font-size: 36px !important;
 	}
 	.container{
 		margin-top: 50px;
 	}
-	
+
 }
 
 @media only screen and (min-width: 1440px){
 	.headline {
-		font-size: 48px !important;
-	}
-	.svg-btn{
-	width: 80px !important;
-	height: auto;
+		font-size: 36px !important;
 	}
 	.container{
 		margin-top: 50px;
 	}
-	.header-logo{
-	height: 250px !important;
-	width: auto;
 }
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	min-height: 100%;
+	 padding-bottom: 6rem;
 }
 
 
@@ -60,9 +59,8 @@ nav.startup-blue{
 }
 
 .header-logo{
-	height: 200px;
+	height: 180px;
 	width: auto;
-	margin: 0 auto;
 	display: table;
 }
 
@@ -87,25 +85,26 @@ nav.startup-blue{
 }
 
 .partners{
-	margin-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	display: block;
 }
 
 .title-section{
 	color: blue;
-	font-family: Source code Pro;
+	font-family: arial;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 22px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
 .startup-img{
-	max-height: 100px;
+	max-height: 80px;
 	width: auto;
 	height: 100%;
 	display: table;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 .git-call{
@@ -124,18 +123,27 @@ nav.startup-blue{
 	max-width: 200px;
 	height: auto;
 }
+
+footer{
+
+	background-color: #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
 /* Embeded SVGs */
 
 
 .svg-btn{
-	width: 60px;
+	width: 30px;
 	height: auto;
-	fill: #dfdfdf;
+	fill: blue;
 	transition: 0.5s;
 }
 
 .svg-btn:hover{
-	fill: blue;
+	fill: #006;
 	transition: 0.5s;
 }
 
