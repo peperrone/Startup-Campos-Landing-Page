@@ -27,6 +27,10 @@
 	}
 }
 
+.container{
+	padding: 10px;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
